@@ -1,6 +1,11 @@
 # Create a new project
 composer create-project laravel/laravel mytube
 
+# copy .env.example file to .env file
+
+# generate a new app key:
+php artisan key:generate
+
 # from within the project run to serve the application and access it, it runs on port 8000:
 php artisan serve
 

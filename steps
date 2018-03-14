@@ -1,0 +1,6 @@
+# Create a new project
+composer create-project laravel/laravel mytube
+
+# from within the project run to serve the application and access it, it runs on port 8000:
+php artisan serve
+
